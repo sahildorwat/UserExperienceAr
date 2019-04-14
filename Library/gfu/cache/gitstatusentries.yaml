@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 5
+  lastUpdatedAtString: 2019-04-13T20:55:33.686-04:00
+  initializedAtString: 2019-04-13T20:38:18.561-04:00
+  entries:
+  - path: .DS_Store
+    fullPath: /Users/sahildorwat/UX_project/.DS_Store
+    projectPath: .DS_Store
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets/ux-project.unity
+    fullPath: /Users/sahildorwat/UX_project/Assets/ux-project.unity
+    projectPath: Assets/ux-project.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs
+    fullPath: /Users/sahildorwat/UX_project/Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs
+    projectPath: Assets/Vuforia/Scripts/DefaultTrackableEventHandler.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/assetDatabase3
+    fullPath: /Users/sahildorwat/UX_project/Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/CrashedAssetImports.txt
+    fullPath: /Users/sahildorwat/UX_project/Library/CrashedAssetImports.txt
+    projectPath: Library/CrashedAssetImports.txt
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/CurrentMaximizeLayout.dwlt
+    fullPath: /Users/sahildorwat/UX_project/Library/CurrentMaximizeLayout.dwlt
+    projectPath: Library/CurrentMaximizeLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/sahildorwat/UX_project/Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/sahildorwat/UX_project/Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/sahildorwat/UX_project/Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/sahildorwat/UX_project/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Library/metadata/00/00000000000000004000000000000000
+    fullPath: /Users/sahildorwat/UX_project/Library/metadata/00/00000000000000004000000000000000
+    projectPath: Library/metadata/00/00000000000000004000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/00/00000000000000009000000000000000
+    fullPath: /Users/sahildorwat/UX_project/Library/metadata/00/00000000000000009000000000000000
+    projectPath: Library/metadata/00/00000000000000009000000000000000
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/5a/5a917f0af64a6423093132dab321c15f
+    fullPath: /Users/sahildorwat/UX_project/Library/metadata/5a/5a917f0af64a6423093132dab321c15f
+    projectPath: Library/metadata/5a/5a917f0af64a6423093132dab321c15f
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+    fullPath: /Users/sahildorwat/UX_project/Library/ScriptAssemblies/Assembly-CSharp.dll
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    fullPath: /Users/sahildorwat/UX_project/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings/ProjectSettings.asset
+    fullPath: /Users/sahildorwat/UX_project/ProjectSettings/ProjectSettings.asset
+    projectPath: ProjectSettings/ProjectSettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: ProjectSettings/QualitySettings.asset
+    fullPath: /Users/sahildorwat/UX_project/ProjectSettings/QualitySettings.asset
+    projectPath: ProjectSettings/QualitySettings.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp/UnityTempFile-0cd76639e24af49cbbf0c2642a0477c9
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-0cd76639e24af49cbbf0c2642a0477c9
+    projectPath: Temp/UnityTempFile-0cd76639e24af49cbbf0c2642a0477c9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-1eb6148ac7ca04423b9c90dae2960920
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-1eb6148ac7ca04423b9c90dae2960920
+    projectPath: Temp/UnityTempFile-1eb6148ac7ca04423b9c90dae2960920
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-27f08b73bb7a74b70b92de15b561c8ef
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-27f08b73bb7a74b70b92de15b561c8ef
+    projectPath: Temp/UnityTempFile-27f08b73bb7a74b70b92de15b561c8ef
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-4303191e6ba2b451d9c5a135c802ece5
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-4303191e6ba2b451d9c5a135c802ece5
+    projectPath: Temp/UnityTempFile-4303191e6ba2b451d9c5a135c802ece5
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-4e3d301b1a2ef45ca945f2c42472d525
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-4e3d301b1a2ef45ca945f2c42472d525
+    projectPath: Temp/UnityTempFile-4e3d301b1a2ef45ca945f2c42472d525
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-52cd1e674e7174f77a61c6cb4c0381ce
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-52cd1e674e7174f77a61c6cb4c0381ce
+    projectPath: Temp/UnityTempFile-52cd1e674e7174f77a61c6cb4c0381ce
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-59a72116466334262b7e59ad6182f894
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-59a72116466334262b7e59ad6182f894
+    projectPath: Temp/UnityTempFile-59a72116466334262b7e59ad6182f894
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-5dd2a2de4c7af47cabf7500c1d3cacbc
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-5dd2a2de4c7af47cabf7500c1d3cacbc
+    projectPath: Temp/UnityTempFile-5dd2a2de4c7af47cabf7500c1d3cacbc
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-63b792d8e2ade4f4e8659530c5c28f90
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-63b792d8e2ade4f4e8659530c5c28f90
+    projectPath: Temp/UnityTempFile-63b792d8e2ade4f4e8659530c5c28f90
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-68f83dd33e9e54a0895c74404a390c00
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-68f83dd33e9e54a0895c74404a390c00
+    projectPath: Temp/UnityTempFile-68f83dd33e9e54a0895c74404a390c00
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-98e467d65a9ea4b14bdd3c2706d481f9
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-98e467d65a9ea4b14bdd3c2706d481f9
+    projectPath: Temp/UnityTempFile-98e467d65a9ea4b14bdd3c2706d481f9
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-9f08174157c9e4da68713c3449759ed0
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-9f08174157c9e4da68713c3449759ed0
+    projectPath: Temp/UnityTempFile-9f08174157c9e4da68713c3449759ed0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-b10c89fafe7594004916f292b0d66106
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-b10c89fafe7594004916f292b0d66106
+    projectPath: Temp/UnityTempFile-b10c89fafe7594004916f292b0d66106
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-bdbf4d1182cec4a638d3f000994a20bd
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-bdbf4d1182cec4a638d3f000994a20bd
+    projectPath: Temp/UnityTempFile-bdbf4d1182cec4a638d3f000994a20bd
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-ce1eec28036084a0e882bf733c2d3e6a
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-ce1eec28036084a0e882bf733c2d3e6a
+    projectPath: Temp/UnityTempFile-ce1eec28036084a0e882bf733c2d3e6a
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-e1d19843a04a04d0593e77dc911ec721
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-e1d19843a04a04d0593e77dc911ec721
+    projectPath: Temp/UnityTempFile-e1d19843a04a04d0593e77dc911ec721
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Temp/UnityTempFile-e56f784ad92dd4580bd25e68a80f25f0
+    fullPath: /Users/sahildorwat/UX_project/Temp/UnityTempFile-e56f784ad92dd4580bd25e68a80f25f0
+    projectPath: Temp/UnityTempFile-e56f784ad92dd4580bd25e68a80f25f0
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: UX_project.userprefs
+    fullPath: /Users/sahildorwat/UX_project/UX_project.userprefs
+    projectPath: UX_project.userprefs
+    originalPath: 
+    status: 1
+    staged: 0

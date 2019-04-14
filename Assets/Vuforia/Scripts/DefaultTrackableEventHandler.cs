@@ -9,7 +9,8 @@ Confidential and Proprietary - Protected under copyright and other laws.
 using UnityEngine;
 using Vuforia;
 using UnityEngine.UI;
-
+using System;
+using System.Collections.Generic;
 
 /// <summary>
 ///     A custom handler that implements the ITrackableEventHandler interface.
@@ -18,8 +19,9 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 {
     #region PRIVATE_MEMBER_VARIABLES
 
-//	Text player;
+	protected Text player;
     protected TrackableBehaviour mTrackableBehaviour;
+	protected Dictionary<string, string> textToImageMap;
 
     #endregion // PRIVATE_MEMBER_VARIABLES
 
@@ -30,10 +32,13 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
-
-//		player = GameObject.Find("Model info").GetComponent<Text>();
-//		player.enabled = false;
-//		Debug.Log ("player name is : " + player.name + " setting inactive at start");
+		// initializing map of textToImageMap
+		textToImageMap = new Dictionary<string, string>();
+		textToImageMap.Add ("ImageTarget1", "This is Info related to image 1");
+		textToImageMap.Add ("ImageTarget2", "This is Info related to image 2");
+		player = GameObject.Find("Model info").GetComponent<Text>();
+		player.enabled = false;
+		Debug.Log ("player name is : " + player.name + " setting inactive at start");
     }
 
     #endregion // UNTIY_MONOBEHAVIOUR_METHODS
@@ -44,8 +49,8 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     ///     Implementation of the ITrackableEventHandler function called when the
     ///     tracking state changes.
     /// </summary>
-//	GameObject player;
-    public void OnTrackableStateChanged(
+
+	public void OnTrackableStateChanged(
         TrackableBehaviour.Status previousStatus,
         TrackableBehaviour.Status newStatus)
     {
@@ -75,7 +80,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #region PRIVATE_METHODS
 
-
+	
     protected virtual void OnTrackingFound()
     {
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
@@ -83,15 +88,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
 
 
-		// define player
-//		player.enabled  = true;
-//		Debug.Log ("here player name is : " + player.name);
+		// enabling player
+		player.enabled  = true;
+		Debug.Log ("Activating player name is : " + player.name);
 
-//		myText = player.GetComponent<Text> ();
-//		myText.text = GetComponent<ImageTarget> ().Name;
-		Debug.Log("Image detected");
+		// setting text from player
+		player.text = textToImageMap[gameObject.name];
+		Debug.Log ("Setting text according to image " + player.text);
 
-//		player.GetComponentInChildren<>();
         // Enable rendering:
         foreach (var component in rendererComponents)
             component.enabled = true;
